@@ -1,0 +1,12 @@
+# mkdocs.yml
+
+site_name: My Project Documentation
+nav:
+  - Home: index.md
+  - API Reference:
+      - Calculator: api/calculator.md
+
+plugins:
+  - search
+  - mkdocstrings
+theme: readthedocs
